@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="/bundles/{{#if manifest.[app.css]}}{{manifest.[app.css]}}{{else}}app.css{{/if}}">
 		<link rel="alternate" href="/feed/atom.xml" type="application/atom+xml" title="{{ title }}">
 	</head>
-	<body>
+	<body class="{{templateClass}}">
 		<header>
 			<ul class="nav">
 				<li class="nav-item"><a href="">{{ nav.data.navtitle }}</a></li>

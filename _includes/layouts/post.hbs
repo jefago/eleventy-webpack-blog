@@ -2,6 +2,7 @@
 layout: layouts/base.hbs
 templateClass: tmpl-post
 ---
+{{#if header-image }}<img class="header" src="/posts/{{ header-image }}" alt="" />{{/if}}
 <h1>{{ title }}</h1>
 
 {{{ content }}}
